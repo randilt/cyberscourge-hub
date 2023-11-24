@@ -154,3 +154,79 @@ a {
 }
 
 /*LIST END*/
+
+/* SINGLE START */
+
+.singleHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.singleHeadTexts {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 20px;
+}
+.singleHeadTitle {
+  font-size: 48px;
+}
+
+.singleHeadDesc {
+  font-size: 20px;
+  font-weight: 300;
+}
+.singleAvatar {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.singleHeadDetail {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.singleCategory {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: var(--bgSoft);
+  color: var(--textSoft);
+  font-size: 14px;
+}
+.singleHeadImage {
+  flex: 1;
+  max-height: 350px;
+  object-fit: cover;
+}
+.singleBottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 50px;
+}
+.singleContent {
+  flex: 3;
+  font-size: 16px;
+  line-height: 32px;
+}
+.singleRightBar {
+  flex: 1;
+}
+.singleContent p,
+.singleContent h1,
+.singleContent h2,
+.singleContent h3 {
+  margin: 20px 0px;
+}
+.singleContent img {
+  width: 100%;
+  object-fit: cover;
+}
+.singleContent pre {
+  width: 100%;
+  overflow-x: scroll;
+  padding: 20px;
+}
+/* SINGLE END */

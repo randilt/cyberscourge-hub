@@ -10,13 +10,15 @@
   <p class="listItemDesc">{{ .Params.description}}</p>
   <div class="listItemDetail">
     <img src={{.Params.avatar}} loading="lazy" alt="" class="listItemAvatar">
-    <span></span>
+    <span>{{ range ( .GetTerms "authors")}}
+        <a href={{.Permalink}}>{{.Name}}</a>
+      {{end}}</span>
     <time>{{dateFormat .Site.Params.dateFormat .Date}}</time>
   </div>
   <div class="listItemCategories">
-    <a href="" class="listItemCategory">Music</a>
-    <a href="" class="listItemCategory">Gaming</a>
-    <a href="" class="listItemCategory">Tech</a>
+    {{ range (.GetTerms "categories") }}
+    <a href={{ .Permalink}} class="listItemCategory">{{ .Name }}</a>
+    {{end}}
   </div>
 </div>
 </div>

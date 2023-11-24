@@ -4,3 +4,8 @@ title = 'Cyberscourge Hub | Tech Insights for the Digital Age'
 
 [params]
     dateFormat = "January 2, 2006"
+
+
+[taxonomies]
+    category = "categories"
+    author = "authors"
