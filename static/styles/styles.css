@@ -4,7 +4,7 @@
   --text: #dee4eb;
   --textSoft: #cbd2d9;
 }
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -13,6 +13,7 @@
 body {
   background-color: var(--bg);
   color: var(--text);
+  font-family: "Poppins", sans-serif;
 }
 a {
   color: inherit;
@@ -111,3 +112,45 @@ a {
     max-width: 475px;
   }
 }
+/*LIST START*/
+.listItem {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+.listItemImage {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.listItemText {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.listItemDetail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+.listItemAvatar {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.listItemCategories {
+  display: flex;
+  gap: 10px;
+}
+.listItemCategory {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: var(--bgSoft);
+  color: var(--textSoft);
+  font-size: 14px;
+}
+
+/*LIST END*/
