@@ -9,7 +9,7 @@
                 <span>{{ range (.GetTerms "authors")}}
                     <a href={{.Permalink}}>{{.Name}}</a>
                     {{end}}
-                </span>
+                </span class="categ">
                 {{ range (.GetTerms "categories")}}
                     <a href={{.Permalink}} class="singleCategory">{{.Name}}</a>
                     {{end}}
@@ -20,9 +20,9 @@
     </div>
     <div class="singleBottom">
         <div class="singleContent">{{ .Content}}</div>
-        <div class="singleRightBar">
+        {{/*  <div class="singleRightBar">
             {{ partial "rightBar" . }}
-        </div>
+        </div>  */}}
     </div>
 </div>
 {{end}}
