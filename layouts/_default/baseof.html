@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles/styles.css" />
-    <title>{{.Site.Title}}</title>
+    <title>{{if eq .RelPermalink "/"}} 
+      {{.Site.Title}} 
+      {{else}} 
+      {{.Title}} | {{.Site.Title}} 
+      {{end}}
+    </title>
   </head>
   <body>
     {{partial "navbar" .}}
