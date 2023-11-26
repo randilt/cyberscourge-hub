@@ -380,3 +380,6 @@ nav a:hover {
   padding: 5px;
   background-color: var(--bgSoft);
 }
+.logo-main {
+  border: 1px white;
+}
