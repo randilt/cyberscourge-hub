@@ -137,7 +137,7 @@ a {
   .singleContent,
   .singleContent pre,
   .singleContent p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .singleHeadDetail {
     flex-direction: column;
