@@ -17,7 +17,7 @@
   </div>
   <div class="listItemCategories">
     {{ range (.GetTerms "categories") }}
-    <a href={{ .Permalink}} class="listItemCategory">{{ .Name }}</a>
+    <a href={{ .Permalink}} class="listItemCategory">#{{ .Name }}</a>
     {{end}}
   </div>
 </div>

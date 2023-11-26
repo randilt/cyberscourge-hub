@@ -9,10 +9,15 @@
                 <span>{{ range (.GetTerms "authors")}}
                     <a href={{.Permalink}}>{{.Name}}</a>
                     {{end}}
-                </span class="categ">
+                </span >
                 {{ range (.GetTerms "categories")}}
                     <a href={{.Permalink}} class="singleCategory">{{.Name}}</a>
                     {{end}}
+                <div class="link-cat">
+                    {{ range (.GetTerms "categories")}}
+                    #<a href={{.Permalink}} class="singleCategoryMob">{{.Name}}</a>
+                    {{end}}
+                </div>
             </div>
             <time>{{ dateFormat .Site.Params.dateFormat .Date}}</time>
         </div>

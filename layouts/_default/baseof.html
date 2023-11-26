@@ -7,8 +7,9 @@
     <title>Document</title>
   </head>
   <body>
+    {{partial "navbar" .}}
     <div class="container">
-      {{partial "navbar" .}} {{block "main" .}} {{end}} {{partial "footer" .}}
+       {{block "main" .}} {{end}} {{partial "footer" .}}
     </div>
   </body>
 </html>
