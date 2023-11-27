@@ -2,7 +2,7 @@
 
 {{if eq .RelPermalink "/categories/"}}
 {{range $.Site.Taxonomies.categories.ByCount }}
-<a href="/categories/{{.Name}}">
+<a href="/categories/{{.Name}}" class="category-list-item">
   # {{ .Name}}<small>({{.Count}})</small>
 </a>
 

@@ -11,7 +11,8 @@
   padding: 0;
 }
 body {
-  background-color: var(--bg);
+  background: linear-gradient(to right, #001f3f, #003366, #1c2331);
+
   color: var(--text);
   font-family: "Poppins", sans-serif;
 }
@@ -147,6 +148,9 @@ a {
   }
   .singleCategory {
     display: none;
+  }
+  .category-sort a {
+    font-size: 12px;
   }
   /* 
   .link-cat {
@@ -300,7 +304,9 @@ a {
 header {
   position: sticky;
   top: 0;
-  background: hsla(226, 61%, 17%, 0.6);
+  background: linear-gradient(to right, #001f3f, #003366, #1c2331);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 1rem 0;
   z-index: 999;
   margin-bottom: 60px;
@@ -413,3 +419,26 @@ nav a:hover {
   cursor: not-allowed;
 }
 @import url("https://fonts.googleapis.com/css?family=Fira+Mono:400");
+.category-list-item {
+  padding: 15px;
+  background-color: var(--bgSoft);
+  border-radius: 10px;
+}
+.category-list {
+  display: flex;
+}
+.category-sort {
+  display: flex;
+  margin-bottom: 50px;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.category-sort a {
+  max-width: fit-content;
+  background-color: #3498db;
+  transition: background-color 0.3s ease;
+}
+.category-sort a:hover {
+  background-color: #2980b9;
+}

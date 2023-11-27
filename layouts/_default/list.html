@@ -2,6 +2,15 @@
 
 
 <div class="list">
+  <div class="category-sort">
+    <h3>Sort by Category:</h3>
+    
+    {{range $.Site.Taxonomies.categories.ByCount }}
+<a href="/categories/{{.Name}}" class="category-list-item">
+   {{ .Name}}<small>({{.Count}})</small>
+</a>
+{{end}}
+  </div>
   
   {{range .Paginator.Pages}}
   <div class="listItem"><img src={{ .Params.image}} alt={{ .Title}} class="listItemImage" loading="lazy"/>
