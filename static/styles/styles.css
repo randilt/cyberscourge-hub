@@ -503,11 +503,7 @@ nav a:hover {
   position: absolute;
   left: 0;
   top: 0;
-  background-image: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.8),
-    rgba(0, 0, 0, 0)
-  );
+
 }
 .posts__item--main .posts__image {
   display: flex;
@@ -526,7 +522,7 @@ nav a:hover {
   font-size: 30px;
   line-height: 36px;
   letter-spacing: 0.75px;
-  color: #fff;
+
 }
 .posts__image > img {
   display: block;
