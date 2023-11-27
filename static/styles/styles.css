@@ -300,7 +300,7 @@ a {
 header {
   position: sticky;
   top: 0;
-  background: hsla(0, 0%, 0%, 0.6);
+  background: hsla(226, 61%, 17%, 0.6);
   padding: 1rem 0;
   z-index: 999;
   margin-bottom: 60px;
@@ -412,3 +412,4 @@ nav a:hover {
   color: var(--bg);
   cursor: not-allowed;
 }
+@import url("https://fonts.googleapis.com/css?family=Fira+Mono:400");

@@ -1,6 +1,8 @@
 {{define "main"}}
 
+
 <div class="list">
+  
   {{range .Paginator.Pages}}
   <div class="listItem"><img src={{ .Params.image}} alt={{ .Title}} class="listItemImage" loading="lazy"/>
   <div class="listItemText">
