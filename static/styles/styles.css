@@ -461,3 +461,6 @@ nav a:hover {
 .logo img {
   max-width: 300px;
 }
+.singleContent li {
+  margin-left: 25px;
+}
