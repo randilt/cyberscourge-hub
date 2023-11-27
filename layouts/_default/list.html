@@ -4,36 +4,39 @@
 <div class="list">
   <div class="container-featured">
   <div class="posts">
-    
+     {{ range where .Data.Pages "Params.featured" "==" "main" }}
     <div class="posts__item posts__item--main">
       <div class="posts__image">
-        <img src="https://images.pexels.com/photos/638479/pexels-photo-638479.jpeg?auto=compress&cs=tinysrgb&h=350" alt="Post image">
+        <img src={{.Params.imageBig}} alt={{.Params.title}}>
       </div>
       <div class="posts__information">
         <div class="posts__date">
-          November 28, 2015
+          {{dateFormat .Site.Params.dateFormat .Date}}
         </div>
         <div class="posts__title">
-          <a href="#">Fantastic Designs Of 2015 Concept Cars</a>
+          <a href={{.Permalink}}>{{.Params.title}}</a>
         </div>
       </div>
     </div>
+    {{end}}
     {{ range where .Data.Pages "Params.featured" "==" true }}
    <div class="posts__item">
       <div class="posts__image">
-        <img src="https://images.unsplash.com/photo-1541654056076-0a252e083078?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0973edee71e034b2da232c4f4fe99cef&auto=format&fit=crop&w=500&q=60" alt="Post image">
+        <img src={{.Params.imageBig}}  alt={{.Params.title}}>
       </div>
       <div class="posts__information">
         <div class="posts__date">
-          November 24, 2015
+          {{dateFormat .Site.Params.dateFormat .Date}}
         </div>
         <div class="posts__title">
-          <a href="#">How To Find Design Inspiration In The Simple Things Around You</a>
+          <a href={{.Permalink}}>{{.Params.Title}}</a>
         </div>
         <div class="posts__author">
-          <a href="#">
-            <img src="https://randomuser.me/api/portraits/men/33.jpg" alt="Author">
+          <a href={{.Permalink}}>
+            <img src={{.Params.avatar}} alt="author">
+            
           </a>
+          
         </div>
       </div>
     </div>

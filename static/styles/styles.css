@@ -483,11 +483,16 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   flex-basis: 32%;
-  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
   margin-bottom: 22px;
   position: relative;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  background: linear-gradient(to right, #001f3f, #003366, #1c2331);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.45);
+  transition: transform 0.3s ease;
 }
+
 .posts__item--main {
   flex-basis: 66%;
 }
@@ -507,12 +512,14 @@ nav a:hover {
 .posts__item--main .posts__image {
   display: flex;
   flex-grow: 1;
+
 }
 .posts__item--main .posts__information {
   position: absolute;
   bottom: 35px;
   left: 50px;
   padding: 0 25px 0 0;
+ 
   z-index: 1;
 }
 .posts__item--main .posts__title a {
@@ -530,6 +537,7 @@ nav a:hover {
   flex-direction: column;
   justify-content: space-between;
   padding: 15px 25px;
+  color: var(--text)
   flex-grow: 1;
 }
 .posts__date {
@@ -544,11 +552,12 @@ nav a:hover {
 .posts__title {
   margin-top: 7px;
   margin-bottom: auto;
+  
 }
 .posts__title a {
   font-size: 22px;
   line-height: 30px;
-  color: #000;
+color: var(--text);
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
