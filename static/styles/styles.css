@@ -174,9 +174,13 @@ a {
   margin-bottom: 50px;
   background: linear-gradient(to right, #001f3f, #003366, #1c2331);
   backdrop-filter: blur(10px);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.45);
+  transition: transform 0.3s ease;
   border-radius: 15px;
-  padding: 10px;
+  padding: 20px;
+}
+.listItem:hover {
+  transform: scale(1.02);
 }
 .listItemImage {
   width: 200px;
