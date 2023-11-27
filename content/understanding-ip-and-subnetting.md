@@ -2,7 +2,7 @@
 title = 'Understanding IP Addresses and Subnetting (Networking Concepts - 1)'
 date = 2023-11-26T13:43:47+05:30
 draft = false
-description = ""
+description = "Dive into the basics of networking: IP addresses, IPv4 vs. IPv6, and the essentials of subnetting. Get a visual guide to subnet masks and build a strong foundation for upcoming posts on network devices and advanced techniques!"
 image = "/images/nccs.webp"
 imageBig = "/images/nccs.webp"
 categories = ["Networking and Cybersecurity Concepts"]

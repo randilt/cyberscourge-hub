@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={{ or .Params.description .Site.Params.description }}>
     <link rel="stylesheet" href="/styles/styles.css" />
     <title>{{if eq .RelPermalink "/"}} 
       {{.Site.Title}} 

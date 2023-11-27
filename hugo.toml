@@ -5,6 +5,7 @@ paginate = 1
 
 [params]
     dateFormat = "January 2, 2006"
+    description = "Discover coding tips, web development tutorials, programming concepts, and insightful game reviews on our tech blog. Stay updated with the latest in the tech world."
 
 
 [taxonomies]
