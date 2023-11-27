@@ -464,3 +464,7 @@ nav a:hover {
 .singleContent li {
   margin-left: 25px;
 }
+
+.singleContent a {
+  text-decoration: underline;
+}
