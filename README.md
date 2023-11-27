@@ -1,3 +1,11 @@
+![logo](https://github.com/randilt/cyberscourge-hub/assets/51049280/02dbcf54-2b3c-4dee-9ba6-3bf1835521cf)
+
+
+
+![image](https://github.com/randilt/cyberscourge-hub/assets/51049280/00443b93-345e-4075-877b-e6255a3180f0)
+
+![Lighthouse report](https://github.com/randilt/cyberscourge-hub/assets/51049280/e0c51534-8001-4971-b846-8db0592eaff0)
+
 # CyberScourge Hub Blog
 
 Welcome to the CyberScourge Hub Blog repository! This repository contains the source code and assets for our tech-focused blog.
