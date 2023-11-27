@@ -1,6 +1,7 @@
 baseURL = 'https://cyberscourge.netlify.app/'
 languageCode = 'en-us'
 title = 'Cyberscourge Hub | Tech Insights for the Digital Age'
+paginate = 1
 
 [params]
     dateFormat = "January 2, 2006"
