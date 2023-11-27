@@ -202,7 +202,7 @@ a {
 .listItemCategory {
   padding: 5px;
   border-radius: 5px;
-  background-color: var(--bgSoft);
+  background-color: #3498db;
   color: var(--textSoft);
   font-size: 14px;
 }
@@ -245,7 +245,7 @@ a {
 .singleCategory {
   padding: 5px;
   border-radius: 5px;
-  background-color: var(--bgSoft);
+  background-color: #3498db;
   color: var(--textSoft);
   font-size: 14px;
 }
@@ -384,7 +384,8 @@ nav a:hover {
 }
 .singleCategoryMob {
   padding: 5px;
-  background-color: var(--bgSoft);
+  background-color: #3498db;
+  border-radius: 5px;
 }
 .logo-main {
   border: 1px white;
@@ -408,6 +409,12 @@ nav a:hover {
   border-radius: 5px;
   width: 30px;
   height: 30px;
+  transition: 0.3s ease;
+}
+.page-item:hover {
+  background-color: #f1f1f1;
+  color: var(--bg);
+  cursor: pointer;
 }
 .page-item.active {
   background-color: var(--text);
