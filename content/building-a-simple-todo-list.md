@@ -1,7 +1,7 @@
 +++
 title = 'Building a Simple To-Do List Web App with HTML, CSS, and JavaScript'
 date = 2023-11-24T19:32:31+05:30
-draft = false
+draft = true
 description = "Follow this step-by-step tutorial to build a basic to-do list web app using HTML, CSS, and JavaScript. Perfect for beginners in web development."
 image = "/images/1s.webp"
 imageBig = "/images/1b.webp"
