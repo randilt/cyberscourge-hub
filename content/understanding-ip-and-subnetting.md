@@ -8,6 +8,7 @@ imageBig = "/images/nccs.webp"
 categories = ["Networking and Cybersecurity Concepts"]
 authors = ["RandilT"]
 avatar = "/images/avatar.webp"
+featured = true
 +++
 
 # Understanding IP Addresses and Subnetting

@@ -8,6 +8,7 @@ imageBig = "/images/sub.webp"
 categories = ["Networking and Cybersecurity Concepts"]
 authors = ["RandilT"]
 avatar = "/images/avatar.webp"
+featured = true
 +++
 
 # How to Divide a Network into Subnets - With a Creative Example (Networking Concepts - 2)

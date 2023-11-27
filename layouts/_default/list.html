@@ -2,6 +2,19 @@
 
 
 <div class="list">
+  <!-- Your HTML structure for the slider container -->
+<div class="slider-container">
+  {{ range where .Data.Pages "Params.featured" "==" true }}
+    <!-- Individual post item for the slider -->
+    <div class="slider-item">
+      <!-- Render post content here -->
+      <h2>{{ .Title }}</h2>
+      <!-- Add other post details as needed -->
+    </div>
+  {{ end }}
+</div>
+
+  
   <div class="category-sort">
     <h3>Sort by Category:</h3>
     
