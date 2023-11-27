@@ -111,8 +111,8 @@ a {
   .container {
     max-width: 640px;
   }
-  .logo {
-    font-size: 20px;
+  .logo img {
+    max-width: 130px;
   }
   .links {
     font-size: 12px;
@@ -448,4 +448,7 @@ nav a:hover {
 }
 .category-sort a:hover {
   background-color: #2980b9;
+}
+.logo img {
+  max-width: 300px;
 }
