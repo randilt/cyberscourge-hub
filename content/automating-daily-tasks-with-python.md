@@ -8,7 +8,7 @@ imageBig = "/images/automate.webp"
 categories = ["Python", "Automation", "Programming"]
 authors = ["RandilT"]
 avatar = "/images/avatar.webp"
-featured = "main"
+featured = false
 +++
 
 # Automating Daily Tasks with Python: A Beginner's Guide

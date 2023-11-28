@@ -319,7 +319,7 @@ header {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 1rem 0;
   z-index: 999;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .header-container {
@@ -424,16 +424,16 @@ nav a:hover {
   transition: 0.3s ease;
 }
 .page-item:hover {
-  background-color: #000000;
+  background-color: #2f85be;
   color: white;
   cursor: pointer;
 }
 .page-item.active {
-  background-color: var(--text);
+  background-color: #3498db;
   color: white;
 }
 .page-item.disabled {
-  background-color: #717680;
+  background-color: #92a9d8;
   color: var(--bg);
   cursor: not-allowed;
 }
@@ -623,4 +623,13 @@ color: var(--text);
   .posts__item {
     flex-basis: 100%;
   }
+}
+.featured-head{
+  margin: auto   ;
+  margin-bottom: 40px;
+  padding: 15px;
+  max-width: fit-content;
+border-radius: 10px;
+    background-color: #3498db;
+  transition: background-color 0.3s ease;
 }
