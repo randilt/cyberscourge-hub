@@ -10,13 +10,15 @@
         <img src={{.Params.imageBig}} alt={{.Params.title}}>
       </div>
       <div class="posts__information">
-        <div class="posts__date">
+        
+        
+      </div>
+      <div class="posts__date">
           {{dateFormat .Site.Params.dateFormat .Date}}
         </div>
-        <div class="posts__title">
-          <a href={{.Permalink}}>{{.Params.title}}</a>
+      <div class="posts__title">
+          <a style="font-size: 18px; font-weight: 700; " href={{.Permalink}}>{{.Params.title}}</a>
         </div>
-      </div>
     </div>
     {{end}}
     {{ range where .Data.Pages "Params.featured" "==" true }}
@@ -31,13 +33,7 @@
         <div class="posts__title">
           <a href={{.Permalink}}>{{.Params.Title}}</a>
         </div>
-        <div class="posts__author">
-          <a href={{.Permalink}}>
-            <img src={{.Params.avatar}} alt="author">
-            
-          </a>
-          
-        </div>
+        
       </div>
     </div>
     

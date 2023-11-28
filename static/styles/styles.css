@@ -1,7 +1,7 @@
 :root {
   --bg: #0b1529;
   --bgSoft: #1f3050;
-  --text: #dee4eb;
+  --text: #000000;
   --textSoft: #cbd2d9;
 }
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
@@ -11,7 +11,7 @@
   padding: 0;
 }
 body {
-  background: linear-gradient(to right, #001f3f, #003366, #1c2331);
+ background: linear-gradient(to right, #f0f0f0, #e0e0e0);
 
   color: var(--text);
   font-family: "Poppins", sans-serif;
@@ -108,6 +108,7 @@ a {
   }
 }
 @media (max-width: 768px) {
+
   .container {
     max-width: 640px;
   }
@@ -172,7 +173,7 @@ a {
   align-items: center;
   gap: 50px;
   margin-bottom: 50px;
-  background: linear-gradient(to right, #001f3f, #003366, #1c2331);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(240, 240, 240, 0.6), rgba(255, 255, 255, 0.8));
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.45);
   transition: transform 0.3s ease;
@@ -313,7 +314,7 @@ a {
 header {
   position: sticky;
   top: 0;
-  background: linear-gradient(to right, #001f3f, #003366, #1c2331);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(240, 240, 240, 0.6), rgba(255, 255, 255, 0.8));
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 1rem 0;
@@ -327,7 +328,7 @@ header {
   justify-content: space-between;
   width: min(90%, 800px);
   margin-inline: auto;
-  color: #fff;
+  color: var(--bg);
 }
 
 nav ul {
@@ -338,7 +339,8 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: #fff;
+  color: var(--text);
+  font-size: 20px;
 }
 
 nav a:hover {
@@ -421,16 +423,16 @@ nav a:hover {
   transition: 0.3s ease;
 }
 .page-item:hover {
-  background-color: #f1f1f1;
-  color: var(--bg);
+  background-color: #000000;
+  color: white;
   cursor: pointer;
 }
 .page-item.active {
   background-color: var(--text);
-  color: var(--bg);
+  color: white;
 }
 .page-item.disabled {
-  background-color: #313845;
+  background-color: #717680;
   color: var(--bg);
   cursor: not-allowed;
 }
@@ -487,7 +489,7 @@ nav a:hover {
   border-radius: 10px;
   margin-bottom: 22px;
   position: relative;
-  background: linear-gradient(to right, #001f3f, #003366, #1c2331);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(240, 240, 240, 0.6), rgba(255, 255, 255, 0.8));
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.45);
   transition: transform 0.3s ease;
@@ -586,6 +588,17 @@ color: var(--text);
   }
 }
 @media screen and (max-width: 768px) {
+  .posts__title{
+    max-width: 300px;
+
+    margin-top: 0;   
+  }
+    .posts__title a{
+       font-size: 14px;
+
+
+    
+  }
   .posts__item {
     flex-basis: 49%;
   }
