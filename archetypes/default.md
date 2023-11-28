@@ -8,4 +8,5 @@ imageBig = ""
 categories = ["general"]
 authors = ["RandilT"]
 avatar = "/images/avatar.webp"
+featured = false
 +++

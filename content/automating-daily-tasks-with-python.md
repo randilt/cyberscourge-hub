@@ -1,13 +1,14 @@
 +++
 title = 'Automating Daily Tasks with Python: A Beginners Guide'
 date = 2023-11-24T19:32:31+05:30
-draft = true
+draft = false
 description = "Learn how to simplify your daily routine using Python. Explore basic automation scripts to kickstart your journey into the world of programming."
-image = "/images/5s.webp"
-imageBig = "/images/5b.webp"
+image = "/images/automate.webp"
+imageBig = "/images/automate.webp"
 categories = ["Python", "Automation", "Programming"]
 authors = ["RandilT"]
 avatar = "/images/avatar.webp"
+featured = "main"
 +++
 
 # Automating Daily Tasks with Python: A Beginner's Guide

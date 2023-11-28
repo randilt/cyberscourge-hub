@@ -3,11 +3,12 @@ title = 'How to Divide a Network Into Subnets With a Creative Example (Networkin
 date = 2023-11-27T16:26:44+05:30
 draft = false
 description = "Unlock the steps to subnetting mastery in our comprehensive guide. Explore the art of dividing IP space for departments like Development, Security, Finance, and Operations. From subnet masks to binary conversion, dive deep into creating distinct subnets with CyberScourge Hub's Networking Concepts series."
-image = "/images/sub.webp"
-imageBig = "/images/sub.webp"
+image = "/images/ipv4-subnetting-example.svg"
+imageBig = "/images/ipv4-subnetting-example.svg"
 categories = ["Networking and Cybersecurity Concepts"]
 authors = ["RandilT"]
 avatar = "/images/avatar.webp"
+featured = true
 +++
 
 # How to Divide a Network into Subnets - With a Creative Example (Networking Concepts - 2)
