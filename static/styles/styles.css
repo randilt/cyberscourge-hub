@@ -139,7 +139,7 @@ a {
   .singleContent pre,
   .singleContent p,
   .singleContent li {
-    font-size: 15px;
+    font-size: 12px;
   }
   .singleHeadDetail {
     flex-direction: column;
