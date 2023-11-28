@@ -371,8 +371,9 @@ nav a:hover {
     top: 100%;
     left: 0;
     width: 100%;
-    background: hsla(0, 0%, 0%, 0.5);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(240, 240, 240, 0.6), rgba(255, 255, 255, 0.8));
     backdrop-filter: blur(10px);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.45);
     transform: translateX(-500px);
     opacity: 0;
   }
