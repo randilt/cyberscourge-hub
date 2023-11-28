@@ -11,7 +11,7 @@
   padding: 0;
 }
 body {
-  background: linear-gradient(to right, #000a12, #00111a, #001c26);
+  background: linear-gradient(to right, #001f3f, #003366, #1c2331);
 
   color: var(--text);
   font-family: "Poppins", sans-serif;
@@ -137,9 +137,8 @@ a {
   }
   .singleContent,
   .singleContent pre,
-  .singleContent p,
-  .singleContent li {
-    font-size: 12px;
+  .singleContent p {
+    font-size: 14px;
   }
   .singleHeadDetail {
     flex-direction: column;
@@ -173,7 +172,7 @@ a {
   align-items: center;
   gap: 50px;
   margin-bottom: 50px;
-   background: linear-gradient(to right, #000a12, #00111a, #001c26);
+  background: linear-gradient(to right, #001f3f, #003366, #1c2331);
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.45);
   transition: transform 0.3s ease;
@@ -284,9 +283,6 @@ a {
 .singleContent h3 {
   margin: 20px 0px;
 }
-.singleContent p,.singleContent li{
-  font-size: 22px;
-}
 .singleContent img {
   width: 100%;
   object-fit: cover;
@@ -317,7 +313,7 @@ a {
 header {
   position: sticky;
   top: 0;
-  background: linear-gradient(to right, #00051a, #000b33, #00114d);
+  background: linear-gradient(to right, #001f3f, #003366, #1c2331);
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 1rem 0;
