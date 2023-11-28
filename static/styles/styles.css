@@ -1,8 +1,8 @@
 :root {
   --bg: #0b1529;
   --bgSoft: #1f3050;
-  --text: #dee4eb;
-  --textSoft: #cbd2d9;
+  --text: #01070e;
+  --textSoft: #1e2f40;
 }
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 * {
@@ -11,7 +11,7 @@
   padding: 0;
 }
 body {
-  background: linear-gradient(to right, #001f3f, #003366, #1c2331);
+  background: linear-gradient(to right, #d1deea, #abcaea, #8f9092);
 
   color: var(--text);
   font-family: "Poppins", sans-serif;
@@ -172,7 +172,7 @@ a {
   align-items: center;
   gap: 50px;
   margin-bottom: 50px;
-  background: linear-gradient(to right, #001f3f, #003366, #1c2331);
+  background: linear-gradient(to right, #d1deea, #abcaea, #8f9092);
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.45);
   transition: transform 0.3s ease;
@@ -313,7 +313,7 @@ a {
 header {
   position: sticky;
   top: 0;
-  background: linear-gradient(to right, #001f3f, #003366, #1c2331);
+  background: linear-gradient(to right, #d1deea, #abcaea, #8f9092);
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 1rem 0;
@@ -327,7 +327,7 @@ header {
   justify-content: space-between;
   width: min(90%, 800px);
   margin-inline: auto;
-  color: #fff;
+  color: var(--text);
 }
 
 nav ul {
@@ -338,7 +338,8 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: #fff;
+  color: var(--text);
+  font-weight: 700;
 }
 
 nav a:hover {
@@ -487,7 +488,7 @@ nav a:hover {
   border-radius: 10px;
   margin-bottom: 22px;
   position: relative;
-  background: linear-gradient(to right, #001f3f, #003366, #1c2331);
+  background: linear-gradient(to right, #d1deea, #abcaea, #8f9092);
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.45);
   transition: transform 0.3s ease;
