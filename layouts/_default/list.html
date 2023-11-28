@@ -1,26 +1,13 @@
 {{define "main"}}
 
-
+  <h3 class="featured-head">Check out our featured posts</h3>
 <div class="list">
+ 
   <div class="container-featured">
+   
+   
   <div class="posts">
-     {{ range where .Data.Pages "Params.featured" "==" "main" }}
-    <div class="posts__item posts__item--main">
-      <div class="posts__image">
-        <img src={{.Params.imageBig}} alt={{.Params.title}}>
-      </div>
-      <div class="posts__information">
-        
-        
-      </div>
-      <div class="posts__date">
-          {{dateFormat .Site.Params.dateFormat .Date}}
-        </div>
-      <div class="posts__title">
-          <a style="font-size: 18px; font-weight: 700; " href={{.Permalink}}>{{.Params.title}}</a>
-        </div>
-    </div>
-    {{end}}
+  
     {{ range where .Data.Pages "Params.featured" "==" true }}
    <div class="posts__item">
       <div class="posts__image">
@@ -43,17 +30,6 @@
     
   </div>
 </div>
-  <!-- Your HTML structure for the slider container -->
-{{/*  <div class="slider-container">
-  {{ range where .Data.Pages "Params.featured" "==" true }}
-    <!-- Individual post item for the slider -->
-    <div class="slider-item">
-      <!-- Render post content here -->
-      <h2>{{ .Title }}</h2>
-      <!-- Add other post details as needed -->
-    </div>
-  {{ end }}
-</div>  */}}
 
   
   <div class="category-sort">
