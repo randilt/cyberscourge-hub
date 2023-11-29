@@ -1,5 +1,5 @@
 +++
-title = 'python if else statements'
+title = 'Dive into python conditional statements'
 date = 2023-11-27T19:47:17+05:30
 draft = false
 description = ""
@@ -7,7 +7,7 @@ image = "/images/if else.webp"
 imageBig = "/images/if else.webp"
 categories = ["python", "programming"]
 authors = ["Sandeev"]
-avatar = "/images/avatar.webp"
+avatar = "/images/avatar-sandeev.webp"
 +++
 
 # Python conditional statements
@@ -21,7 +21,8 @@ Before learning about pythons if else statements, you have to be familiar with t
 - == checks whether the values are equal.
 
 example:
-``` python 
+
+```python
 a = 5
 b = 5
 print(a == b) #returns true
