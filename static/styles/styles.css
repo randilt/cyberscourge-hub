@@ -127,6 +127,13 @@ a {
   .rightBarImg {
     display: none;
   }
+  .listItem {
+    flex-direction: column;
+  }
+  .listItemImage{
+    min-width: 100%;
+    object-fit: cover;
+
   .listItem{
     flex-direction: column;
   }
@@ -141,7 +148,7 @@ a {
     font-size: 18px;
   }
   .singleHead p {
-    max-width: 300px;
+    max-width: 400px;
   }
   .singleContent,
   .singleContent pre,

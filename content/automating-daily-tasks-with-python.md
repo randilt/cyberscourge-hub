@@ -1,7 +1,7 @@
 +++
 title = 'Automating Daily Tasks with Python: A Beginners Guide'
 date = 2023-11-24T19:32:31+05:30
-draft = false
+draft = true
 description = "Learn how to simplify your daily routine using Python. Explore basic automation scripts to kickstart your journey into the world of programming."
 image = "/images/automate.webp"
 imageBig = "/images/automate.webp"
