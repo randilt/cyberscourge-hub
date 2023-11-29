@@ -11,7 +11,7 @@
   padding: 0;
 }
 body {
- background: linear-gradient(to right, #f0f0f0, #e0e0e0);
+  background: linear-gradient(to right, #f0f0f0, #e0e0e0);
 
   color: var(--text);
   font-family: "Poppins", sans-serif;
@@ -108,7 +108,6 @@ a {
   }
 }
 @media (max-width: 768px) {
-
   .container {
     max-width: 640px;
   }
@@ -127,13 +126,13 @@ a {
   .rightBarImg {
     display: none;
   }
-  .listItem{
+  .listItem {
     flex-direction: column;
   }
- .listItemImage{
-  min-width: 100%;
-  object-fit: cover;
- }
+  .listItemImage {
+    min-width: 100%;
+    object-fit: cover;
+  }
   /* .listItem img {
     display: none;
   } */
@@ -180,7 +179,12 @@ a {
   align-items: center;
   gap: 50px;
   margin-bottom: 50px;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(240, 240, 240, 0.6), rgba(255, 255, 255, 0.8));
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.8),
+    rgba(240, 240, 240, 0.6),
+    rgba(255, 255, 255, 0.8)
+  );
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.45);
   transition: transform 0.3s ease;
@@ -321,7 +325,12 @@ a {
 header {
   position: sticky;
   top: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(240, 240, 240, 0.6), rgba(255, 255, 255, 0.8));
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.8),
+    rgba(240, 240, 240, 0.6),
+    rgba(255, 255, 255, 0.8)
+  );
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 1rem 0;
@@ -378,9 +387,14 @@ nav a:hover {
     top: 100%;
     left: 0;
     width: 100%;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(240, 240, 240, 0.6), rgba(255, 255, 255, 0.8));
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.8),
+      rgba(240, 240, 240, 0.6),
+      rgba(255, 255, 255, 0.8)
+    );
     backdrop-filter: blur(10px);
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.45);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.45);
     transform: translateX(-500px);
     opacity: 0;
   }
@@ -497,7 +511,12 @@ nav a:hover {
   border-radius: 10px;
   margin-bottom: 22px;
   position: relative;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(240, 240, 240, 0.6), rgba(255, 255, 255, 0.8));
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.8),
+    rgba(240, 240, 240, 0.6),
+    rgba(255, 255, 255, 0.8)
+  );
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.45);
   transition: transform 0.3s ease;
@@ -513,26 +532,23 @@ nav a:hover {
   position: absolute;
   left: 0;
   top: 0;
-
 }
 .posts__item--main .posts__image {
   display: flex;
   flex-grow: 1;
-
 }
 .posts__item--main .posts__information {
   position: absolute;
   bottom: 35px;
   left: 50px;
   padding: 0 25px 0 0;
- 
+
   z-index: 1;
 }
 .posts__item--main .posts__title a {
   font-size: 30px;
   line-height: 36px;
   letter-spacing: 0.75px;
-
 }
 .posts__image > img {
   display: block;
@@ -542,8 +558,8 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 15px 25px;
-  color: var(--text)
+  padding: 15px 5px;
+  color: var(--text);
   flex-grow: 1;
 }
 .posts__date {
@@ -558,12 +574,11 @@ nav a:hover {
 .posts__title {
   margin-top: 7px;
   margin-bottom: auto;
-  
 }
 .posts__title a {
   font-size: 22px;
   line-height: 30px;
-color: var(--text);
+  color: var(--text);
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
@@ -596,16 +611,13 @@ color: var(--text);
   }
 }
 @media screen and (max-width: 768px) {
-  .posts__title{
+  .posts__title {
     max-width: 300px;
 
-    margin-top: 0;   
+    margin-top: 0;
   }
-    .posts__title a{
-       font-size: 14px;
-
-
-    
+  .posts__title a {
+    font-size: 14px;
   }
   .posts__item {
     flex-basis: 49%;
@@ -631,12 +643,16 @@ color: var(--text);
     flex-basis: 100%;
   }
 }
-.featured-head{
-  margin: auto   ;
+.featured-head {
+  margin: auto;
   margin-bottom: 40px;
   padding: 15px;
   max-width: fit-content;
-border-radius: 10px;
-    background-color: #3498db;
+  border-radius: 10px;
+  background-color: #3498db;
   transition: background-color 0.3s ease;
+}
+
+.categoryMain {
+  flex-wrap: wrap;
 }

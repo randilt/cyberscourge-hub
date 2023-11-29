@@ -7,8 +7,8 @@ image = "/images/todo.webp"
 imageBig = "/images/todo.webp"
 categories = ["Web Development", "HTML", "CSS", "JavaScript"]
 authors = ["RandilT"]
-avatar = "/images/avatar.webp"
-featured = true
+avatar = "/images/todo.webp"
+featured = false
 +++
 
 # Building a Simple To-Do List Web App with HTML, CSS, and JavaScript
