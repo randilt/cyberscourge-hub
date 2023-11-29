@@ -823,3 +823,89 @@ nav a:hover {
   background-color: #f39c12;
   color: white;
 }
+.category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.category {
+  max-width: 1170px;
+  /*   display: flex; */
+  /*   flex-wrap: wrap; */
+  /*   justify-content: center; */
+  gap: 20px;
+  /*   row-gap: 20px; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  width: 100%;
+}
+
+.item {
+  position: relative;
+  /*   min-width: 370px; */
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  background: #ffffff;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.8),
+    rgba(240, 240, 240, 0.6),
+    rgba(255, 255, 255, 0.8)
+  );
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.45);
+  transition: transform 0.5s ease;
+  border-radius: 10px;
+  text-decoration: none;
+
+  z-index: 0;
+}
+
+.item:hover {
+  transform: scale(1.02);
+}
+
+.item .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 28px;
+  /* Основной текст */
+  color: #2f3035;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.item:hover > .title {
+  color: #1c62cd;
+}
+
+.item .link {
+  font-size: 14px;
+  padding-left: 20px;
+  padding-bottom: 14px;
+  /* светло серый текст */
+  color: #c4c4c4;
+}
+
+.item .link::after {
+  content: url("data:image/svg+xml,%3Csvg width='6' height='9' viewBox='0 0 6 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.228824 7.88793C-0.0650262 8.13366 -0.0762933 8.54196 0.203658 8.79989C0.48361 9.05782 0.948767 9.06771 1.24262 8.82198C1.24262 8.82198 5.77719 4.97116 5.78955 4.95998C6.07934 4.69388 6.06851 4.27195 5.76535 4.01758L1.24266 0.178763C0.949277 -0.067399 0.484101 -0.0581918 0.203658 0.199327C-0.0767845 0.456847 -0.0662956 0.865161 0.227086 1.11132L3.71295 4.12125C3.94389 4.32066 3.94393 4.67861 3.71304 4.87807L0.228824 7.88793Z' fill='%23C4C4C4'/%3E%3C/svg%3E%0A");
+  margin-left: 3px;
+  transition: 0.5s;
+}
+
+.item:hover > .link::after {
+  margin-left: 8px;
+}
+
+.item .img {
+  position: absolute;
+  right: 37px;
+  top: 22px;
+  z-index: -1;
+}

@@ -1,14 +1,52 @@
 {{define "main"}}
-
 {{if eq .RelPermalink "/categories/"}}
+<div class="category">
+	<a href="networking-and-cybersecurity-concepts" class="item">
+		<span class="title">Networking And <br> Cyber Security</span>
+		<span class="link" href="#">View posts</span>
+		<img class="img" src="/images/cyber-security.png" alt="">
+	</a>
+	<a href="game-development" class="item">
+		<span class="title">Game <br> Development</span>
+		<span class="link" href="">View posts</span>
+		<img class="img" src="/images/game.png" alt="">
+	</a>
+	<a href="programming" class="item">
+		<span class="title">Programming</span>
+		<span class="link" href="#">View posts</span>
+		<img class="img" src="/images/programming.png" alt="">
+	</a>
+	<a href="web-development" class="item">
+		<span class="title">Web <br>Development</span>
+		<span class="link" href="#">View Posts</span>
+		<img class="img" src="/images/web.png" alt="">
+	</a>
+	<a href="tech-gadgets" class="item">
+		<span class="title">Tech Gadgets</span>
+		<span class="link" href="#">View posts</span>
+		<img class="img" src="/images/gadgets.png" alt="">
+	</a>
+	<a href="tech-tips" class="item">
+		<span class="title">Tech Tips</span>
+		<span class="link" href="#">View posts</span>
+		<img class="img" src="/images/education.png" alt="">
+	</a>
+</div>
+
+
+<div class="category-sort">
+  <h2>Browse all categories:</h2>
 {{range $.Site.Taxonomies.categories.ByCount }}
 <a href="/categories/{{.Name}}" class="category-list-item">
   # {{ .Name}}<small>({{.Count}})</small>
 </a>
 
 {{end}}
+</div>
 {{else}}
 <div class="list">
+
+  
   {{range .Paginator.Pages}}
   <div class="listItem"><img src={{ .Params.image}} alt={{ .Title}} class="listItemImage" loading="lazy"/>
   <div class="listItemText">
