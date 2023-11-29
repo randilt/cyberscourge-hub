@@ -159,6 +159,12 @@ a {
   .category-sort a {
     font-size: 12px;
   }
+  .item .title {
+    font-size: 18px;
+  }
+  .item {
+    max-width: 100%;
+  }
   /* 
   .link-cat {
     display: block;
@@ -771,6 +777,9 @@ nav a:hover {
   .about-heading {
     font-size: 12px;
     gap: 8px;
+  }
+  .item .title {
+    font-size: 13px;
   }
 }
 .contribute {
