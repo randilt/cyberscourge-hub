@@ -8,7 +8,7 @@ imageBig = "/images/genjitsu.webp"
 categories = ["Gaming News", "Game Development", "Unreal Engine 5"]
 authors = ["RandilT"]
 avatar = "/images/avatar.webp"
-featured = false
+featured = true
 +++
 
 # Unveiling "Shooting Genjitsu": An Exclusive Interview with Game Developer Ishan Maduranga
