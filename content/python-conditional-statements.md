@@ -1,7 +1,7 @@
 +++
 title = 'Dive into python conditional statements'
 date = 2023-11-27T19:47:17+05:30
-draft = false
+draft = true
 description = ""
 image = "/images/if else.webp"
 imageBig = "/images/if else.webp"
