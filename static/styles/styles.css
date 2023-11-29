@@ -678,7 +678,7 @@ nav a:hover {
 .team-member {
   text-align: center;
   width: 200px;
-  height: 230px;
+  height: 250px;
   margin-top: 20px;
   padding: 15px;
   background: linear-gradient(
@@ -699,14 +699,16 @@ nav a:hover {
 .team-member h3 {
   margin: 10px 0;
 }
-.team-member img {
+.team-member img,
+.team-member svg {
   border-radius: 50%;
   max-width: 100px;
+  margin-bottom: 5px;
 }
 .team-members {
   display: flex;
   flex-wrap: wrap;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
 }
 .about-heading {
@@ -730,12 +732,15 @@ nav a:hover {
 
 @media (max-width: 768px) {
   .team-member {
-    margin: 10px;
+    margin: 5px;
     max-width: 150px;
-    height: fit-content;
+    height: 260px;
   }
   .logo img {
     max-width: 150px;
+  }
+  .team-member p {
+    font-size: 12px;
   }
 }
 .team-member .social {
@@ -747,8 +752,10 @@ nav a:hover {
   .team-member {
     margin: 10px;
     max-width: 100px;
+    max-height: 200px;
   }
-  .team-member img {
+  .team-member img,
+  .team-member svg {
     max-width: 50px;
   }
   .team-member h3 {
@@ -765,4 +772,54 @@ nav a:hover {
     font-size: 12px;
     gap: 8px;
   }
+}
+.contribute {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.contribute-link {
+  text-align: center;
+  max-width: auto;
+  padding: 30px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.8),
+    rgba(240, 240, 240, 0.6),
+    rgba(255, 255, 255, 0.8)
+  );
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.45);
+  transition: transform 0.3s ease;
+  border-radius: 15px;
+}
+.contribute-link:hover {
+  transform: scale(1.02);
+}
+.contribute-link h2,
+.contribute-link p {
+  margin-bottom: 10px;
+}
+.team-member p {
+  padding: 5px;
+  border-radius: 5px;
+}
+.founder {
+  background-color: #e74c3c;
+
+  color: white;
+}
+.role {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.maintainer {
+  background-color: #2ecc71;
+  color: white;
+}
+.contributor {
+  background-color: #f39c12;
+  color: white;
 }
