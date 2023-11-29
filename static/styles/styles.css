@@ -656,3 +656,113 @@ nav a:hover {
 .categoryMain {
   flex-wrap: wrap;
 }
+.about-section {
+  max-width: 100%;
+}
+
+.about-content {
+  text-align: justify;
+  margin: 30px 0;
+}
+.about-content p {
+  margin-bottom: 20px;
+}
+
+.about-content img {
+  max-width: 300px;
+}
+.team-members {
+  margin-top: 30px;
+}
+
+.team-member {
+  text-align: center;
+  width: 200px;
+  height: 230px;
+  margin-top: 20px;
+  padding: 15px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.8),
+    rgba(240, 240, 240, 0.6),
+    rgba(255, 255, 255, 0.8)
+  );
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.45);
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+  margin: 20px;
+}
+.team-member:hover {
+  transform: scale(1.02);
+}
+.team-member h3 {
+  margin: 10px 0;
+}
+.team-member img {
+  border-radius: 50%;
+  max-width: 100px;
+}
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+}
+.about-heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 28px;
+}
+.about-heading img {
+  max-width: 300px;
+}
+@media (max-width: 982px) {
+  .about-heading img {
+    max-width: 200px;
+  }
+  .about-heading {
+    font-size: 20px;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-member {
+    margin: 10px;
+    max-width: 150px;
+    height: fit-content;
+  }
+  .logo img {
+    max-width: 150px;
+  }
+}
+.team-member .social {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+@media (max-width: 350px) {
+  .team-member {
+    margin: 10px;
+    max-width: 100px;
+  }
+  .team-member img {
+    max-width: 50px;
+  }
+  .team-member h3 {
+    max-width: 80px;
+    font-size: 14px;
+  }
+  .logo img {
+    max-width: 120px;
+  }
+  .about-heading img {
+    max-width: 120px;
+  }
+  .about-heading {
+    font-size: 12px;
+    gap: 8px;
+  }
+}
