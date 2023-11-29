@@ -127,9 +127,16 @@ a {
   .rightBarImg {
     display: none;
   }
-  .listItem img {
-    display: none;
+  .listItem{
+    flex-direction: column;
   }
+ .listItemImage{
+  min-width: 100%;
+  object-fit: cover;
+ }
+  /* .listItem img {
+    display: none;
+  } */
   .singleHead h1 {
     font-size: 18px;
   }
