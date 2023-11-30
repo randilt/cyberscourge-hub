@@ -1,5 +1,5 @@
 +++
-title = 'How to Divide a Network Into Subnets With a Creative Example (Networking Concepts - 2)'
+title = 'How to Divide a Network Into Subnets With an Example (Networking Concepts - 2)'
 date = 2023-11-27T16:26:44+05:30
 draft = false
 description = "Unlock the steps to subnetting mastery in our comprehensive guide. Explore the art of dividing IP space for departments like Development, Security, Finance, and Operations. From subnet masks to binary conversion, dive deep into creating distinct subnets with CyberScourge Hub's Networking Concepts series."
@@ -11,7 +11,7 @@ avatar = "/images/avatar.webp"
 featured = true
 +++
 
-# How to Divide a Network into Subnets - With a Creative Example (Networking Concepts - 2)
+# How to Divide a Network into Subnets - With an Example (Networking Concepts - 2)
 
 Greetings, network enthusiasts, and welcome back to the CyberScourge Hub! Today, we take you on a journey deep into the art of subnetting. Join us as we discuss the methods of dividing the IP space for our example company ByteCo's departments which are the Development, Security, Finance and Operations departments. Let the subnetting adventure begin! First of all check out our first article in Networking concepts and Cyber Security Concepts to get a basic understanding on what IP is and what a subnet is.
 
