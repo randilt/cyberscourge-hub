@@ -1,8 +1,15 @@
 +++
+<<<<<<< HEAD
 title = 'Introduction To Python Conditional Statements'
 date = 2023-11-27T19:47:17+05:30
 draft = false
 description = "Greetings programming enthusiasts. Today we are gonna give you a deep dive about python conditional statements."
+=======
+title = 'Dive into python conditional statements'
+date = 2023-11-27T19:47:17+05:30
+draft = true
+description = ""
+>>>>>>> c330212aea054739712ce85e58886b42e0bda006
 image = "/images/if else.webp"
 imageBig = "/images/if else.webp"
 categories = ["python", "programming"]
@@ -21,7 +28,8 @@ Before learning about pythons if else statements, you have to be familiar with t
 - ==   **equal** operator.
 
 example:
-``` python 
+
+```python
 a = 5
 b = 5
 print(a == b) #returns true

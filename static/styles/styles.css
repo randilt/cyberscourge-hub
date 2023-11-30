@@ -127,9 +127,16 @@ a {
   .rightBarImg {
     display: none;
   }
-  .listItem img {
-    display: none;
+  .listItem{
+    flex-direction: column;
   }
+ .listItemImage{
+  min-width: 100%;
+  object-fit: cover;
+ }
+  /* .listItem img {
+    display: none;
+  } */
   .singleHead h1 {
     font-size: 18px;
   }
@@ -373,7 +380,7 @@ nav a:hover {
     width: 100%;
     background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(240, 240, 240, 0.6), rgba(255, 255, 255, 0.8));
     backdrop-filter: blur(10px);
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.45);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.45);
     transform: translateX(-500px);
     opacity: 0;
   }
@@ -440,7 +447,8 @@ nav a:hover {
 @import url("https://fonts.googleapis.com/css?family=Fira+Mono:400");
 .category-list-item {
   padding: 15px;
-  background-color: var(--bgSoft);
+  /* background-color: var(--bgSoft); */
+  background-color:  #3498db;
   border-radius: 10px;
 }
 .category-list {
@@ -595,10 +603,7 @@ color: var(--text);
     margin-top: 0;   
   }
     .posts__title a{
-       font-size: 14px;
-
-
-    
+       font-size: 14px; 
   }
   .posts__item {
     flex-basis: 49%;
@@ -625,11 +630,11 @@ color: var(--text);
   }
 }
 .featured-head{
-  margin: auto   ;
+  margin: auto;
   margin-bottom: 40px;
   padding: 15px;
   max-width: fit-content;
-border-radius: 10px;
-    background-color: #3498db;
+  border-radius: 10px;
+  background-color: #3498db;
   transition: background-color 0.3s ease;
 }
