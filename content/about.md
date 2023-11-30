@@ -1,6 +1,6 @@
 ---
 title: "About"
-Description: "Making the Complex Simple and Easy to Understand!"
+Description: "At CyberScourge Hub, we believe in making technology accessible to everyone. Whether you’re delving into the world of programming, exploring the latest in cybersecurity, or staying updated on cutting-edge tech trends, we’ve got you covered."
 
 layout: "about"
 ---
