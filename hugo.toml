@@ -1,7 +1,7 @@
-baseURL = 'https://rtharusha.tech/'
+baseURL = 'https://blog.randiltharusha.me/'
 languageCode = 'en-us'
 title = 'Cyberscourge Hub | Tech Insights for the Digital Age'
-paginate = 4
+paginate = 8
 
 [params]
     dateFormat = "January 2, 2006"
